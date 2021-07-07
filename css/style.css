@@ -59,10 +59,41 @@ ul li {
 .float-right{
     float: right;
 }
+.main-content{
+    text-align: center;
+    color: white;
+}
+.main-content > h1{
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 20px;
+   
+}
+.main-content > p{
+    width: 600px;
+    margin: 0 auto 10px auto;
+   
+    
+}
 
-#accedi{
-    border: white;
+ul li [value="Accedi"]{
     background-color: white;
+    border: 1px solid white;
+}
+
+.button-radius{
     padding: 10px;
     border-radius: 20px;
+}
+
+.main-button>input:nth-child(1){
+    background-color: white;
+    border: 1px solid white;
+    margin: 5px;
+}
+.main-button>input:nth-child(2){
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    margin: 5px;
 }
