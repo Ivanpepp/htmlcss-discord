@@ -19,9 +19,23 @@ header .container{
     margin: 0 auto;
     padding-top: 25px;
 }
+footer{
+    background-color: rgb(39, 39, 39);
+   
+}
 ul li {
     display: inline-block;
    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    border: none;
+    height: 5px;
+    display: block;
+    background-color: lightcoral;
 }
 .logo li img{
     vertical-align: middle;
@@ -82,32 +96,31 @@ ul li [value="Accedi"]{
 }
 
 .button-radius{
-    padding: 10px;
-    border-radius: 20px;
+    padding: 20px;
+    border-radius: 40px;
 }
 
 .main-button>input:nth-child(1){
     background-color: white;
     border: 1px solid white;
-    margin: 5px;
+    margin: 15px;
 }
 .main-button>input:nth-child(2){
     background-color: black;
     border: 1px solid black;
     color: white;
-    margin: 5px;
+    margin: 15px;
 }
 
 .box{
     max-width: 1200px;
     min-width: 1200px;
-    margin: 80px auto;
+    margin: 80px auto 200px auto;
 }
 
 .text{
     width: 30%;
-    padding-top: 35px;
-    padding-right: 35px;
+    padding: 35px
 }
 
 .text h3{
@@ -116,5 +129,73 @@ ul li [value="Accedi"]{
 
 .text p{
      margin-top: 15px;
-    font-size: 20px;
+     font-size: 20px;
 }
+
+.center{
+    text-align: center;
+    width: 850px;
+    margin: 0 auto;
+}
+.bg-stars{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.center .button-radius>input:first-child{
+    border: 1px solid lightcoral;
+    background-color: lightcoral;
+    color: white;
+    margin-top: 15px;
+}
+
+.footer-container > ul li{
+    display: block;
+    padding: 10px 0;
+}
+.footer-container > ul{
+    margin-right:  80px;
+}
+.footer-container li:first-child {
+    color: lightcoral;
+}
+ul li h4{
+    font-size: 30px;
+    width: 200px;
+}
+
+.icon{
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.footer-container{
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    border-bottom:2px solid lightcoral;
+    
+}
+.foot{
+    margin-top: 30px;
+    padding-bottom: 60px;
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.foot .button>input[value="Registrati"]{
+    background-color: lightcoral;
+    border: 1px solid lightcoral;
+    color: white;
+}
+#ita{
+    width: 20px;
+}
+
